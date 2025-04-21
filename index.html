@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <title>Alan's Portfolio - Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Alan, a world-class software engineer."
+    />
+    <meta name="author" content="Alan" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- OG (Open Graph Data) -->
+    <meta property="og:title" content="알렌의 포트폴리오" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sungryulcho.github.io/Alan/" />
+    <meta
+      property="og:image"
+      content="https://sungryulcho.github.io/Alan/images/og.webp"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awsome -->
+    <script
+      src="https://kit.fontawesome.com/18c8ec7879.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- javascript -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
+        <h1 class="header__logo_title"><a href="#">Alan</a></h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">Work</a></li>
+          <li>
+            <a class="header__menu__item" href="#testimonial">Testimonials</a>
+          </li>
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" aria-label="navigation menu toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <div class="home__container">
+          <img
+            class="home__avatar"
+            src="images/profile.png"
+            alt="Alan's profile"
+          />
+          <h2 class="home__title" aria-label="Hello, I'm Dream Coder Alan">
+            Hello<br />
+            I&#39;m
+            <strong class="home__title__strong">Dream Coder</strong> , Alan
+          </h2>
+          <p class="home__description">
+            I specialize in crafting innovative software solutions with
+            precision and passion.
+          </p>
+          <a class="home__contact" href="#contact">Get in Touch</a>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about" class="section max-container">
+        <h2 class="title">About Me</h2>
+        <p class="description">
+          I hold a degree in Computer Engineering and have certifications in
+          Information Processing and Information Security.
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
+            <p>HTML, CSS, JavaScript, TypeScript, React, Vue, Web APIs</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-mobile major__icon"></i>
+            <p class="major__title">Mobile</p>
+            <p>Android, iOS, React Native, Flutter, Java, Swift, Kotlin</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
+            <p>Java, JavaScript, Go, Node.js, REST APIs, GraphQL</p>
+          </li>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img src="images/jobs/google.png" alt="Google logo" />
+            <div>
+              <p class="job__name">Senior Software Engineer at Google</p>
+              <p class="job__period">February 2025 - Present</p>
+            </div>
+          </li>
+          <li class="job">
+            <img src="images/jobs/samsung.png" alt="Samsung logo" />
+            <div>
+              <p class="job__name">Software Engineer at Samsung</p>
+              <p class="job__period">February 2023 - December 2024</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">Skills & Expertise</h2>
+          <p class="description">Technical Skills & Personal Attributes</p>
+          <p>
+            I have experience in every phase of the software development
+            lifecycle and a passion for new technologies. I excel in both team
+            environments and independent projects, and I’m skilled in planning,
+            time management, and performing under pressure.
+          </p>
+          <div class="skills">
+            <section class="skills__coding">
+              <h3 class="skills__title">Coding Skills</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span><span>98%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 98%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JavaScript</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>TypeScript</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>React</span><span>79%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 79%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Node.js</span><span>68%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 68%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">Tools</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>IntelliJ IDEA</li>
+                <li>Android Studio</li>
+                <li>Xcode</li>
+                <li>Sketch</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">Others</h3>
+              <ul>
+                <li>Git</li>
+                <li>Scrum Master</li>
+                <li>Mathematics</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">My Work</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category category--selected" data-category="all">
+                All <span class="category__count">8</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="front-end">
+                Front-end <span class="category__count">4</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="back-end">
+                Back-end <span class="category__count">2</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="mobile">
+                Mobile <span class="category__count">2</span>
+              </button>
+            </li>
+          </ul>
+          <ul class="projects">
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project1.webp"
+                  alt="Project 1"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #1</h3>
+                  <p>
+                    A responsive clone project showcasing clean HTML structure
+                    and CSS styling.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project2.webp"
+                  alt="Project 2"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #2</h3>
+                  <p>
+                    An interactive clone project emphasizing modern design
+                    principles using HTML and CSS.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="back-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project3.webp"
+                  alt="Project 3"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #3</h3>
+                  <p>
+                    A backend-integrated clone project that combines RESTful API
+                    calls with a basic HTML/CSS layout.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="mobile">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project4.webp"
+                  alt="Project 4"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #4</h3>
+                  <p>
+                    A mobile-first clone project designed for intuitive user
+                    interaction and fast loading times.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project5.webp"
+                  alt="Project 5"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #5</h3>
+                  <p>
+                    A visually engaging clone project highlighting advanced CSS
+                    animations and layouts.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="back-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project6.webp"
+                  alt="Project 6"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #6</h3>
+                  <p>
+                    A full-stack clone project that merges dynamic server-side
+                    logic with a sleek HTML/CSS front-end.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="mobile">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project7.webp"
+                  alt="Project 7"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #7</h3>
+                  <p>
+                    A cross-platform mobile clone project focused on performance
+                    and modern UI design.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project8.webp"
+                  alt="Project 8"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #8</h3>
+                  <p>
+                    An all-encompassing clone project that leverages HTML, CSS,
+                    and a touch of JavaScript for dynamic effects.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Testimonials -->
+      <section id="testimonial" class="section max-container">
+        <h2 class="title">Testimonials</h2>
+        <p class="description">Hear what others say about my work</p>
+        <ul class="testimonials">
+          <li class="testimonial">
+            <img
+              src="images/testimonials/people1.webp"
+              alt="James Kim"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                Alan's expertise and dedication shine through in every project.
+                His innovative approach and problem-solving skills have truly
+                impressed our team.
+              </p>
+              <p>
+                <a href="#" class="testimonial__bubble__name">James Kim</a>
+                / Google
+              </p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img
+              src="images/testimonials/people2.webp"
+              alt="David Jang"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                Working with Alan has been a pleasure. His clear communication
+                and commitment to quality make him a standout engineer.
+              </p>
+              <p>
+                <a href="#" class="testimonial__bubble__name">David Jang</a>
+                / Samsung
+              </p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img
+              src="images/testimonials/people3.webp"
+              alt="Anna Jin"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                Alan consistently delivers exceptional results. His technical
+                acumen and collaborative spirit make him an invaluable asset.
+              </p>
+              <p>
+                <a href="#" class="testimonial__bubble__name">Anna Jin</a>
+                / Samsung
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Arrow up -->
+      <aside>
+        <a class="arrow-up" href="#home" title="Back to Top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">Let's Connect</h2>
+        <p class="description">Email: hahahoho5811@gmail.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/SungRyulCho"
+              target="_blank"
+              title="My GitHub Profile"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://www.linkedin.com/in/sungryul-cho-848612346/"
+              target="_blank"
+              title="My LinkedIn Profile"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <p>© Alan, Software Engineer - All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
