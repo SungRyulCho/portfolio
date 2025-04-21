@@ -1,10 +1,10 @@
 "use strict";
 
 new TypeIt(".home__title__strong", {
-  loop: false,
-  speed: 150,
+  loop: true,
+  speed: 200,
 }) // Dream Coder|
-  .move(-12)
+  .move(-11)
   .type("Amazing ")
   .pause(1000)
   .move(null, { to: "END" })
